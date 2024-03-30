@@ -10404,8 +10404,8 @@
             </Parameter>
           </Song>
         </Unit>
-        <Unit Version="1.0" Id="" Category="OuterAudio" Group="a15b76af-829b-4735-b7af-8164e1001afa" StartTime="00:00:01.3010000" Duration="00:05:00.4110000" FilePath="D:\BaiduYunDownload\梦之结唱\饯别之鸟\uvr\1_DZeal-餞の鳥_(Instrumental).wav" />
-        <Unit Version="1.0" Id="" Category="OuterAudio" Group="e80b3d45-2a7e-49d9-b6b0-5c59dbf101d4" StartTime="00:00:01.3010000" Duration="00:05:00.4110000" FilePath="D:\BaiduYunDownload\梦之结唱\饯别之鸟\uvr\1_DZeal-餞の鳥_(Vocals).wav" />
+        <Unit Version="1.0" Id="" Category="OuterAudio" Group="a15b76af-829b-4735-b7af-8164e1001afa" StartTime="00:00:01.3010000" Duration="00:05:00.4110000" FilePath="uvr\1_DZeal-餞の鳥_(Instrumental).wav" />
+        <Unit Version="1.0" Id="" Category="OuterAudio" Group="e80b3d45-2a7e-49d9-b6b0-5c59dbf101d4" StartTime="00:00:01.3010000" Duration="00:05:00.4110000" FilePath="uvr\1_DZeal-餞の鳥_(Vocals).wav" />
         <Unit Version="1.0" Id="" Category="SingerSong" Group="7084b14c-c17c-4afa-a860-a52a6a465615" StartTime="00:00:00" Duration="00:04:14.7950000" CastId="CSNV-JPF-BSR2" Language="Japanese">
           <Song Version="1.08" CommonKeys="true">
             <Tempo>
