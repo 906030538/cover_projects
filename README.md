@@ -4,12 +4,15 @@ Archive some source project of Vocaloid/CeVIO/SynthesizerV projcet file.
 # Index
 - WIP
 
-| Date                             | Title                | Release/Preview Link                                        |
-| -------------------------------- | -------------------- | ----------------------------------------------------------- |
-| [24/02/25](./240225POPPY)        | POPPY-STAYC(SynthV)  | [av1751188025](https://www.bilibili.com/video/av1751188025) |
-| [24/02/13](./240213饯别之鸟)      | 饯别之鸟(Ce/SV)       | [av1900258215](https://www.bilibili.com/video/av1900258215)  |
-| [24/01/17](./240117向着无尽的灰)   | 向着无尽的灰(CeVIO)    | [av438421289](https://www.bilibili.com/video/av438421289)   |
-| [23/03/15](./230315向着无尽的灰)   | 向着无尽的灰(SynthV)   | [av238770819](https://www.bilibili.com/video/av238770819)   |
+| Date                               | Title                 | Release/Preview Link                                        |
+| ---------------------------------- | --------------------- | ----------------------------------------------------------- |
+| [24/02/25](./240225POPPY)          | POPPY-STAYC(SynthV)   | [av1751188025](https://www.bilibili.com/video/av1751188025) |
+| [24/02/13](./240213饯别之鸟)       | 饯别之鸟(Ce/SV)       | [av1900258215](https://www.bilibili.com/video/av1900258215) |
+| [24/01/17](./240117向着无尽的灰)   | 向着无尽的灰(CeVIO)   | [av438421289](https://www.bilibili.com/video/av438421289)   |
+| [23/08/06](./230806無路矢)         | 無路矢(CeVIO)         | [av274468142](https://www.bilibili.com/video/av274468142)   |
+| [23/07/25](./230725梅菲斯特)       | 梅菲斯特(CeVIO)       | [av231343707](https://www.bilibili.com/video/av231343707)   |
+| [23/03/15](./230315向着无尽的灰)   | 向着无尽的灰(SynthV)  | [av238770819](https://www.bilibili.com/video/av238770819)   |
+| [23/01/16](./230116夜空中最亮的星) | 夜空中最亮的星(CeVIO) | [av777913088](https://www.bilibili.com/video/av777913088)   |
 
 ---
 
