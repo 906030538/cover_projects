@@ -6,6 +6,7 @@ Archive some source project of Vocaloid/CeVIO/SynthesizerV projcet file.
 
 | Date                               | Title                 | Release/Preview Link                                        |
 | ---------------------------------- | --------------------- | ----------------------------------------------------------- |
+| [24/07/04](./240704学猫叫)         | 学猫叫(SynthV)        | [av1756212961](https://www.bilibili.com/video/av1756212961) |
 | [24/05/03](./240503饯别之鸟)       | 饯别之鸟(SV+3DMV)     | [av1953949248](https://www.bilibili.com/video/av1953949248) |
 | [24/02/25](./240225POPPY)          | POPPY-STAYC(SynthV)   | [av1751188025](https://www.bilibili.com/video/av1751188025) |
 | [24/02/13](./240213饯别之鸟)       | 饯别之鸟(Ce/SV)       | [av1900258215](https://www.bilibili.com/video/av1900258215) |
