@@ -6,6 +6,7 @@ Archive some source project of Vocaloid/CeVIO/SynthesizerV projcet file.
 
 | Date                               | Title                        | Release/Preview Link                                                  |
 | ---------------------------------- | ---------------------------- | --------------------------------------------------------------------- |
+| [25/04/30](./250430天球彗星)       | 天球中彗星跨越夜晚(SynthV)   | [av114423045823486](https://www.bilibili.com/video/av114423045823486) |
 | [25/02/01](./250201走你)           | 致刚刚开始奔跑的你(SynthV)   | [av113901324735612](https://www.bilibili.com/video/av113901324735612) |
 | [24/07/17](./240717先富起来)       | 允许丰川祥子先富起来(SynthV) | [av1556166831](https://www.bilibili.com/video/av1556166831)           |
 | [24/07/07](./240707仙儿)           | 仙儿(SynthV)                 | [av1456117895](https://www.bilibili.com/video/av1456117895)           |
