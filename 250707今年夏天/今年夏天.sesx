@@ -1,0 +1,2133 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.9">
+
+  <session appBuild="25.2.0.33" appVersion="25.2" audioChannelType="stereo" bitDepth="32" duration="15339148" sampleRate="48000">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="160" trackMinimized="false">
+          <name>轨道 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="92391928-b989-4660-9154-9680725c331e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1b3866fe-2428-4cff-b632-130622f6a9a2" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="23f93d0a-7fc3-461a-9c8f-c4035f9d5635" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="b2e89850-bff3-42d2-8c65-b2f05a648b70" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="726c82c9-4363-46ed-9ab7-87da4ad6820a" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="fcf6e596-d4f0-4464-96bf-08106b7df695" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="22477d11-7aea-4ba8-9b21-12144c7d93e8" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="false" slotIndex="0">
+            <component componentGuid="c53f54e6-b312-4bbf-9a04-d21823d94043" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="4d25770c-6d93-475c-9035-d03e9a758bce" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="0238e7cd-a70d-40e7-87cb-f0eed819effe" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="e22ec0b0-ce5f-4c18-839a-7e41dae2a9cc" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="26" editorTop="311" editorWidth="701" name="完全混响" presetName="中型音乐厅（热烈）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.063000001013278961181640625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2572000026702880859375"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.442799985408782958984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.185800015926361083984375"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.4060088694095611572265625"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.145729005336761474609375"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_main" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="5cb4a970-cc88-4d2d-85ac-a052ed0b226b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fedb1a86-fe46-4ad8-b1b2-2ae45be761a5" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b893ecf4-73be-443a-a7ae-75683e141281" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="267" trackMinimized="false">
+          <name>轨道 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="cf1cda7a-d8d8-4982-acb7-47f6c1253eb8" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1e5f8582-b927-452b-a680-2fa447c76416" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="848f3d24-7ad9-4d5b-960a-f6dee6f6174d" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="1789c580-deac-4e31-9190-e98d98d25d5a" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="f0b63bad-e9f6-4ed4-b067-16618d7466f8" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="cea67a1d-db88-4201-a59d-3285c1107a83" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="f2aa0f49-4f70-4fb1-9232-18ad06c44661" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="d77a1e70-84de-43e6-8195-67ae7454a958" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="5b43cd22-d6af-44d0-bdcd-3e6e4f7f7c73" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="800a4941-4838-44ce-b3d4-789ec9a389fb" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="ebda6a44-216c-4abc-b663-6b1ce2ed66a9" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="57" editorTop="230" editorWidth="701" name="完全混响" presetName="中型音乐厅（热烈）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.063000001013278961181640625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2572000026702880859375"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.442799985408782958984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.185800015926361083984375"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.4060088694095611572265625"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.145729005336761474609375"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_main_Asp" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="8dba5f6a-0eef-4a5b-b8da-7ed73db6051b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="43d2f19d-d82b-4e31-8632-36aff1873aed" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="071c8e1f-38d6-4524-84e1-7d35653e1750" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="51" trackMinimized="false">
+          <name>轨道 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="a329c20f-41b1-45d6-ab64-b0ccdf8d40f1" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8c7fcf52-fb26-4e03-8a94-086798dda6e1" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f59da079-c967-4ddd-a1e0-3663785a9ec2" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="a662a19f-3031-4f5e-b138-85775e912471" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="bb4cc0e0-1fdd-4df0-9a44-2eef0d7b754b" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="dfe3b3f5-7d4d-435e-b91f-128e6eb90d91" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="4ca068c1-34a7-41ad-9500-2459606098b6" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="false" slotIndex="0">
+            <component componentGuid="52ef72e3-6d6c-44eb-9813-5dc4e9cdc899" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="eb6b3804-2f77-471a-bfc3-91087cc25844" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="0d6cbe7b-c64d-4f5b-9acc-49f278dc3a89" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="075b1918-059f-44a3-a772-6cfbbb1f63f9" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="-1150" editorTop="170" editorWidth="701" name="完全混响" presetName="中型音乐厅（轻快）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.125"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.0388000048696994781494140625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.17139999568462371826171875"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.685800015926361083984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.300000011920928955078125"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.21711401641368865966796875"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.095477402210235595703125"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_sub" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="c155894b-15fc-48f9-830e-6e5f0f4806e8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="124b5d43-eb89-410d-8c47-eb9c59ed47bd" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0f85e3aa-3d6d-41e0-bfcb-a6167ca9fafa" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="182" trackMinimized="false">
+          <name>轨道 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="7157b1f3-7e94-4095-bd00-ce8f60608266" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="84f854ef-36c2-4427-9d21-d347be75e00c" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0f4d3be8-9b25-4ec1-b072-e35f88682019" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="d97bfb86-8118-49e8-a830-b958344a0d68" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="ccae2e78-df14-45c8-ae30-67bf1512d431" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="0ef0565f-364e-4343-8bea-a255b3e07a3c" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="69b46d58-0769-4b52-b902-e0854ff5ec04" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="7efc9da9-2275-4913-ba95-e530d12e8dac" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="356d33b5-5cc1-47a4-ba65-cad32ae3d626" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="af8f7feb-2de9-4445-a253-6adbc0428fbf" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="d31355de-373e-4ead-8bdc-5f404db5bb22" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="-1150" editorTop="170" editorWidth="701" name="完全混响" presetName="中型音乐厅（轻快）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.125"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.0388000048696994781494140625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.17139999568462371826171875"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.685800015926361083984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.300000011920928955078125"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.21711401641368865966796875"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.095477402210235595703125"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_sub_Asp" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="a6a32c70-559d-4b4e-8ff0-35d6af66eb83" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a492e858-efa2-41cb-a753-da387753593c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="6e1b248e-2920-46e4-93c1-3cb4b82d6a8f" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="294" trackMinimized="false">
+          <name>轨道 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="356b2fb5-399d-44b9-b767-252f845b6b24" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.58489334583282470703125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a3cbf84a-1f27-48f0-9165-7f2e0c19d454" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="cb5eb00d-a934-44d3-9e0f-61b21ee49ded" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="56113d10-702f-428c-8952-1c6d8d1351f7" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="1fa5b9cc-a67b-445a-b1b8-c2cf336e632e" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="64452c36-860d-4981-8ed7-c867109e83e1" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="0ad3116c-c147-4663-bc61-12b1cce0f4da" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="false" slotIndex="0">
+            <component componentGuid="1bb322ca-8c63-4d63-bc21-e4fc27f39926" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="5eabfca1-f862-4d58-9734-8aa5941da00b" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="8f3e69ea-2bb2-421f-bba0-07a781147adb" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="81cdbe41-a28e-4503-a245-910f6f844aba" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="109" editorTop="226" editorWidth="701" name="完全混响" presetName="中型音乐厅（热烈）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.01212790794670581817626953125"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2572000026702880859375"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.442799985408782958984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.185800015926361083984375"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.4060088694095611572265625"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.145729005336761474609375"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_harmony" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="851c6c03-1229-4c4e-8758-4390f5004b1b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="6f91007b-a27f-4ce0-9149-01643445d9a3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b2ee2844-eefe-4490-aa9e-dac3018c1f03" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="true" visible="true">
+        <trackParameters trackHeight="54" trackHue="92" trackMinimized="false">
+          <name>轨道 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="e00d3ce7-9a94-49d0-b3a7-56b951d54ba8" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.58489334583282470703125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="049f4624-cb57-4efc-bf2d-2ee7c31b1d59" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="92ff4640-859f-41eb-aea7-59b72203b6bb" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="c6f268c4-6759-4eca-bf65-1ccb5400214b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="280f4153-83a4-49aa-8fa1-e63187519949" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="8e36d12c-6041-41ff-afff-2d217f3a71bb" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="650c818e-1ea4-4546-a17b-e10600085dc3" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="379376e6-f9fb-4955-9727-f927ede1b4b9" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="17842fc2-11a8-4510-893a-6bc4cbff1e3e" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="182d32ea-6239-4107-ac96-3dd780e627a0" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="8fbb0f64-7ba9-4d38-90b2-170cf4508a63" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="-1150" editorTop="170" editorWidth="701" name="完全混响" presetName="中型音乐厅（热烈）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.01212790794670581817626953125"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2572000026702880859375"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.442799985408782958984375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.185800015926361083984375"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.403319895267486572265625"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.4060088694095611572265625"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.145729005336761474609375"/>
+              <parameter index="18" name="着色衰减" parameterValue="1"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="5" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_harmony_Asp" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="f4782e8d-2a0f-4053-8fa0-c334cb840e10" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="d5c68482-7f2f-4301-b293-d554465e49ab" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d081a13c-d1ac-4f6e-acf4-c56023b40cdd" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10007" index="7" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="211" trackMinimized="false">
+          <name>轨道 7</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="890cc521-cab0-4e21-af9d-91b0bc4afd55" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b15c777b-260d-47d5-9838-a64a23f3282d" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f90a73bf-11a6-4472-b126-4251cd30a008" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="7104b335-43d0-452c-933d-16d2afb4c5b2" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="1c72dd84-8abf-4749-add7-cea1d9443f30" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="4337feee-1cfb-4a5a-9b3c-e9947d80ef2c" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="67ccaeac-6446-4084-b9af-d10dfd66dea2" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="false" slotIndex="0">
+            <component componentGuid="8466f1e6-373d-499d-9e32-24d103657ed6" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="26031a1a-3310-41ab-bf89-c028a2237d05" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="ca1fb302-3d78-4614-b070-b5355e20722f" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="a738de8c-580e-4104-a0a4-f6dfda82bba4" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="-1150" editorTop="170" editorWidth="701" name="完全混响" presetName="中型音乐厅（自然）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.063000001013278961181640625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2858000099658966064453125"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.5141999721527099609375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.12860000133514404296875"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.706005513668060302734375"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.1407255828380584716796875"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.0452261008322238922119140625"/>
+              <parameter index="18" name="着色衰减" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="6" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_Dup" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="4187e74a-3c18-4368-981a-555fe0d0a32c" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="cc0819e6-b8e5-4330-99a3-19c228888cb9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="072d3646-cca5-4676-bd6f-82f223934232" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10008" index="8" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="326" trackMinimized="false">
+          <name>轨道 8</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="003f219d-84b5-4354-a768-8a4c1d1246cc" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7782795429229736328125"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1bca2acc-70d0-43ca-aaa2-0c992dd1f672" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="35b63555-7b85-4917-adb6-3adae92a0554" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="3fb84e58-56a4-4e78-b643-9c622e5aba7f" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="0f7f5c7b-1a59-4cf2-bf65-8a98bff06908" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="3444a8cd-1ff8-4fa8-89cb-58c8ff2851f8" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="e69e5d1c-7930-4ebf-b659-187284678cae" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="2a178f80-8b10-47a3-b235-09e3cf9081ea" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" name="消除齿音" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAAAADwwQAAyEIAAMhCAECcRQCAO0UAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="290b4ca3-17d4-4016-9aa7-a73c8d8316d9" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" name="参数均衡器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="下限频率" parameterValue="0.0033361134119331836700439453125"/>
+              <parameter index="1" name="下限增益" parameterValue="0.5"/>
+              <parameter index="2" name="上限频率" parameterValue="0.20767305791378021240234375"/>
+              <parameter index="3" name="上限频率增益" parameterValue="0.4479166567325592041015625"/>
+              <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104002654552459716796875"/>
+              <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+              <parameter index="7" name="EQ 频段 1 启用" parameterValue="0"/>
+              <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062601827085018157958984375"/>
+              <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+              <parameter index="11" name="EQ 频段 2 启用" parameterValue="0"/>
+              <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.01132103241980075836181640625"/>
+              <parameter index="13" name="EQ 频段 3 Q" parameterValue="9.99900003080256283283233642578125e-05"/>
+              <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.4791666567325592041015625"/>
+              <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+              <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326110064983367919921875"/>
+              <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+              <parameter index="19" name="EQ 频段 4 启用" parameterValue="0"/>
+              <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944023609161376953125"/>
+              <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+              <parameter index="23" name="EQ 频段 5 启用" parameterValue="0"/>
+              <parameter index="24" name="增益" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="恒定 Q" parameterValue="1"/>
+              <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+              <parameter index="27" name="上限频率滤镜顺序" parameterValue="1"/>
+              <parameter index="28" name="超静音模式" parameterValue="1"/>
+              <parameter index="29" name="下限启用" parameterValue="1"/>
+              <parameter index="30" name="上限频率启用" parameterValue="1"/>
+              <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+              <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.00249998713843524456024169921875"/>
+              <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.00999999605119228363037109375"/>
+              <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.02914782799780368804931640625"/>
+              <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.1600005924701690673828125"/>
+              <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.639999926090240478515625"/>
+              <parameter index="37" name="高通滤波启用" parameterValue="1"/>
+              <parameter index="38" name="高通切除频率" parameterValue="0.00271059223450720310211181640625"/>
+              <parameter index="39" name="高通斜率" parameterValue="0.800000011920928955078125"/>
+              <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+              <parameter index="41" name="低通切除频率" parameterValue="0.74979197978973388671875"/>
+              <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="不使用" parameterValue="0"/>
+              <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="false" slotIndex="2">
+            <component componentGuid="398a2c1b-9ff4-46a8-90d4-841fe9dd73a5" componentID="f205d7b7-5e0b-421b-bc6d-5f27096ba192" name="回声" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="延迟时间（左声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="1" name="延迟时间（右声道）" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="2" name="反馈（左声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="3" name="反馈（右声道）" parameterValue="0.639640033245086669921875"/>
+              <parameter index="4" name="回声电平（左声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="5" name="回声电平（右声道）" parameterValue="0.849849998950958251953125"/>
+              <parameter index="6" name="EQ 频段 1" parameterValue="0.17333300411701202392578125"/>
+              <parameter index="7" name="EQ 频段 2" parameterValue="0.170000016689300537109375"/>
+              <parameter index="8" name="EQ 频段 3" parameterValue="0.18000002205371856689453125"/>
+              <parameter index="9" name="EQ 频段 4" parameterValue="0.183332979679107666015625"/>
+              <parameter index="10" name="EQ 频段 5" parameterValue="0.4199999868869781494140625"/>
+              <parameter index="11" name="EQ 频段 6" parameterValue="0.26666700839996337890625"/>
+              <parameter index="12" name="EQ 频段 7" parameterValue="0.46333301067352294921875"/>
+              <parameter index="13" name="EQ 频段 8" parameterValue="0.5"/>
+              <parameter index="14" name="锁定左右声道" parameterValue="0"/>
+              <parameter index="15" name="回声反弹" parameterValue="0"/>
+              <parameter index="16" name="延迟时间单位" parameterValue="0"/>
+              <parameter index="17" name="声道数" parameterValue="0.0625"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="774e39cc-9cdf-4b13-ab22-f5386b42efca" componentID="7dc63abb-812a-410a-aaf0-53bcbe298c84" editorHeight="585" editorLeft="-1150" editorTop="170" editorWidth="701" name="完全混响" presetName="中型音乐厅（自然）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="混响衰减时间" parameterValue="0.437457978725433349609375"/>
+              <parameter index="1" name="混响预延迟时间" parameterValue="0.5299999713897705078125"/>
+              <parameter index="2" name="扩散" parameterValue="0.821211993694305419921875"/>
+              <parameter index="3" name="感知" parameterValue="0.07999999821186065673828125"/>
+              <parameter index="4" name="输出电平（干）" parameterValue="0.3655000030994415283203125"/>
+              <parameter index="5" name="输出电平（早反射）" parameterValue="0.138999998569488525390625"/>
+              <parameter index="6" name="输出电平（混响）" parameterValue="0.063000001013278961181640625"/>
+              <parameter index="7" name="房间大小" parameterValue="0.14770899713039398193359375"/>
+              <parameter index="8" name="尺寸" parameterValue="0.034386001527309417724609375"/>
+              <parameter index="9" name="左/右位置" parameterValue="0.482999980449676513671875"/>
+              <parameter index="10" name="早反射高通切除" parameterValue="0.00125104305334389209747314453125"/>
+              <parameter index="11" name="下限增益" parameterValue="0.2858000099658966064453125"/>
+              <parameter index="12" name="中度着色增益" parameterValue="0.5141999721527099609375"/>
+              <parameter index="13" name="上限频率增益" parameterValue="0.12860000133514404296875"/>
+              <parameter index="14" name="下限频率" parameterValue="0.001343618729151785373687744140625"/>
+              <parameter index="15" name="上限频率" parameterValue="0.706005513668060302734375"/>
+              <parameter index="16" name="中度着色中置频率" parameterValue="0.1407255828380584716796875"/>
+              <parameter index="17" name="中度着色 Q" parameterValue="0.0452261008322238922119140625"/>
+              <parameter index="18" name="着色衰减" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="19" name="总输入" parameterValue="0.753768861293792724609375"/>
+              <parameter index="20" name="包括直通" parameterValue="0.753768861293792724609375"/>
+              <parameter index="21" name="设置基于房间大小的混响" parameterValue="0.251256287097930908203125"/>
+              <parameter index="22" name="正在计算脉冲" parameterValue="1"/>
+              <parameter index="23" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="24" name="声道数" parameterValue="0.0625"/>
+              <parameter index="25" name="房间宽度" parameterValue="0.02182470075786113739013671875"/>
+              <parameter index="26" name="房间高度" parameterValue="0.02965310029685497283935546875"/>
+              <parameter index="27" name="房间深度" parameterValue="0.01372059993445873260498046875"/>
+              <parameter index="28" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="15003648" fileID="7" hue="-1" id="0" lockedInTime="false" looped="false" name="今年夏天_Dup_Asp" offline="false" select="false" sourceInPoint="0" sourceOutPoint="15003648" startPoint="0" zOrder="0">
+          <component componentGuid="45b22c4d-c13a-44af-9150-56c739085da5" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="93824fff-744f-425e-b0d3-00497a685b40" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d0c1fb4f-6eb8-4c19-8b82-20d95fc0ae03" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="15003648" shape="19" startPoint="15003648" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10009" index="9" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="130" trackMinimized="false">
+          <name>轨道 9</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="a5dac63e-d751-41ca-9952-476a219813be" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.41253745555877685546875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e4c87849-ead9-40e0-92a3-ce0bc0766802" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5ac382c5-8aa3-4735-8e4b-8aeb473e84d2" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="7cfe556d-397f-4964-ba08-e438eeb5b4e9" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="14997420" fileID="8" hue="-1" id="0" lockedInTime="false" looped="false" name="工作室大钢琴_3" offline="false" select="true" sourceInPoint="0" sourceOutPoint="14997420" startPoint="0" zOrder="0">
+          <component componentGuid="95776701-cbb1-45da-a2f1-22f77e983783" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="acc27a58-b049-445c-86ad-294cf0b3d2d1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="99a78beb-deb6-4519-ba26-c1f5d36328ff" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="14997420" shape="19" startPoint="14997420" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="10" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="-1" trackMinimized="false">
+          <name>混合</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="97bef1e2-78fe-4d46-bb6e-37df77d7e4a5" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="328a3a6c-5964-4753-bab6-fadc287a84ba" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0d2b4f7f-1032-4f5c-95ca-6bbe78bd0f11" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="791f60a3-8a44-4c46-923e-7e4337e0a278" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="13272203" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="13272203"/>
+      <viewState horizontalViewDuration="15339148" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="76" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="12" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 152.deb9585, 2024/02/06-08:36:10        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition (Beta) 25.2 (Macintosh)</xmp:CreatorTool>
+         <xmp:CreateDate>2025-07-05T06:09:46+08:00</xmp:CreateDate>
+         <xmp:MetadataDate>2025-07-06T08:13:43+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-07-06T08:13:43+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:51d55086-7102-41bf-8509-1c3e16a3f1ef</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:b840165e-cfa9-4aae-bc34-e4e1e7e20445</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:b840165e-cfa9-4aae-bc34-e4e1e7e20445</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b840165e-cfa9-4aae-bc34-e4e1e7e20445</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:09:46+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:506ef567-0bc6-4642-9be8-67aa536692b2</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:12:51+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:603da97d-379c-4957-ac01-7c4f5664714f</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:12:51+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:895c2978-36c4-460a-ac90-66ecdba4a245</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:19:38+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a116a984-d688-4762-b2ec-c2a50b068d37</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:19:38+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f296024b-2635-4ebd-a1ae-1d3f29cb18db</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:21:21+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:46c197dc-919b-4ee3-b96d-14a0344da4de</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:21:21+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fcbdcce1-fa48-4a3c-a000-90e7e42c3aa5</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:24:21+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:36b93fdc-21d4-45d0-b84c-7e39911587fc</stEvt:instanceID>
+                  <stEvt:when>2025-07-05T06:24:21+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:906d2aae-200e-4ec2-9655-08f29a6245dc</stEvt:instanceID>
+                  <stEvt:when>2025-07-06T08:13:43+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:51d55086-7102-41bf-8509-1c3e16a3f1ef</stEvt:instanceID>
+                  <stEvt:when>2025-07-06T08:13:43+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition (Beta) 25.2 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>节拍器</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="518c9a93-385c-4bec-a9a9-ae6e4250fba6" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c030498b-4b9e-404d-a6cf-1bf62320a45b" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b5cfc294-50fb-4a7c-98db-5589e9ebd402" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="39924abb-f5ca-40a3-b2c8-865886dfdc1c" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.05150749906897545,0.32432401180267334,0.2929289937019348,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.4000000059604645,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.1959799975156784,0.6896899938583374,0.6969699859619141,0.25,0.5,0.5,0.2346940040588379,0.5199999809265137,0.5,0.75,0.25,0.2512562870979309,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.4577268958091736,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.07149998843669891,0.07149998843669891,0.07149998843669891,0.40238627791404724,0.48571401834487915,0.5,0.5515574812889099,0.5960257649421692,0.22246670722961426,0.07149998843669891,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.2844204008579254,0.48315632343292236,0.364984929561615,0.5285388827323914,0.4351150095462799,0.2715468406677246,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.328642874956131,0.328642874956131,0.328642874956131,0.328642874956131,0.48571401834487915,0.5307139754295349,0.5307139754295349,0.48357096314430237,0.328642874956131,0.328642874956131,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.4253937005996704,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5178940892219543,0.507703423500061,0.5,0.5178940892219543,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostHighTone=Subtle Boost (High Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.519334077835083,0.5464289784431458,0.5270676612854004,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostLowTone=Subtle Boost (Low Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.5464289784431458,0.519334077835083,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.3633434474468231,0.4946831166744232,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.09655340015888214,0.5,0.324894517660141,0,0.3572143018245697,0.3572143018245697,0.4642857015132904,0.47857141494750977,0.4763694703578949,0.4957035481929779,0.5592495799064636,0.5652339458465576,0.5085929036140442,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0,0.004166666883975267,0.00022554649331141263,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.004052083473652601,0.75,0.004262916743755341,0.00022554649331141263,0.006488333456218243,0.00022554649331141263,0.006866666954010725,0.75,0.007170416414737701,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.02874666638672352,0.00022554649331141263,0.04165875166654587,0.00022554649331141263,0.04360000044107437,0.75,0.04563166946172714,0.00022554649331141263,0.06242458149790764,0.00022554649331141263,0.06533333659172058,0.75,0.06837750226259232,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.918749988079071,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0.75,0.004166666883975267,0.75,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.918749988079071,0.6123724579811096,1,0.6123724579811096,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.1998399794101715,0.18367347121238708,0.260869562625885,0.5270270109176636,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.1998399794101715,0.18367347121238708,0.19130434095859528,0.2567567527294159,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.8999999761581421,0,0.5200743675231934,0.41663265228271484,0.46000000834465027,0.5,0.7300000190734863,0.1599999964237213,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.7979797720909119,0.25,0.5,0.5,0.2297959178686142,0.7200000286102295,0.5,0.6299999952316284,0.8799999952316284,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.007444901391863823,0.09898842126131058,0.7989053726196289,0.8999999761581421,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.2752297818660736,0.5,0.7300000190734863,0.3199999928474426,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.05013655871152878,0.6969699859619141,0.25,0.09435578435659409,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.7300000190734863,0.46000000834465027,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.6997500061988831,0.2929289937019348,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.03928571566939354,0.10000000149011612,0.5,1,0.5,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.1959799975156784,0.23931467533111572,0.6969699859619141,0.25,0.5,0.5399999618530273,0.020408162847161293,0.20945435762405396,0.5,1,0.3499999940395355,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.02010050229728222,0.07407407462596893,0.49494948983192444,0.4000000059604645,0.7496030926704407,0.4000000059604645,0.1239795908331871,0.6700000166893005,0.5,0.8500000238418579,0.5600000023841858,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.8998998999595642,0,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.10204081982374191,0.09000000357627869,0.5,1,0.30000001192092896,0.2512562870979309,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.2992990016937256,1,0.9599999785423279,0.8500000238418579,0.5,0.5153059959411621,0.30000001192092896,0.5,0.5,0.5,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.0954774022102356,0.2992990016937256,0.09090910106897354,1,1,0.800000011920929,0.2244900017976761,0.6000000238418579,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_main.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_main.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_main_Asp.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_main_Asp.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_sub.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_sub.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_sub_Asp.wav" id="3" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_sub_Asp.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_harmony.wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_harmony.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_harmony_Asp.wav" id="5" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_harmony_Asp.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_Dup.wav" id="6" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_Dup.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/out/今年夏天_Dup_Asp.wav" id="7" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="out/今年夏天_Dup_Asp.wav"/>
+    <file absolutePath="./夢ノ結唱/今年夏天/工作室大钢琴_3.wav" id="8" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="工作室大钢琴_3.wav"/>
+  </files>
+
+  <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
+    <inputPort id="1" name="默认立体声输入"/>
+    <inputPort id="2" name="[01M] 系统默认 - MacBook Pro麦克风: 1"/>
+    <inputPort id="3" name="[01S] 系统默认 - MacBook Pro麦克风: 1"/>
+    <outputPort id="1" name="默认输出"/>
+    <outputPort id="2" name="[01M] 系统默认 - JMGO: 输出 1"/>
+    <outputPort id="3" name="[02M] 系统默认 - JMGO: 输出 2"/>
+    <outputPort id="4" name="默认立体声输出"/>
+    <outputPort id="5" name="[01S] 系统默认 - JMGO: 输出 1"/>
+    <outputPort id="6" name="默认环绕声输出"/>
+  </audioDevice>
+
+</sesx>
