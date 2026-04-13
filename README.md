@@ -6,6 +6,7 @@ Archive some source project of Vocaloid/CeVIO/SynthesizerV projcet file.
 
 | Date                               | Title                        | Release/Preview Link                                                  |
 | ---------------------------------- | ---------------------------- | --------------------------------------------------------------------- |
+| [26/04/11](./260411Borderline)     | Borderline(SynthV)           | [av116377004283925](https://www.bilibili.com/video/av116377004283925) |
 | [26/04/03](./260403皆大欢喜)       | 皆大欢喜(SynthV)             | [av116336403485154](https://www.bilibili.com/video/av116336403485154) |
 | [25/07/07](./250707今年夏天)       | 今年夏天(SynthV)             | [av114804878546536](https://www.bilibili.com/video/av114804878546536) |
 | [25/04/30](./250430天球彗星)       | 天球中彗星跨越夜晚(SynthV)   | [av114423045823486](https://www.bilibili.com/video/av114423045823486) |
